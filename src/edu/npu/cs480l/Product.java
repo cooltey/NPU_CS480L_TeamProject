@@ -5,9 +5,9 @@ public class Product extends Brand{
 	
 	 // -Products - sub class
 	 // (product_name, produce_date, price)
-	 String product_name;
-	 String produce_date;
-	 String price;
+	 private String product_name;
+	 private String produce_date;
+	 private String price;
 	 
 	 public Product(){
 		 product_name 	= "Pepsi";

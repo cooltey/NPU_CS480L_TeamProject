@@ -5,10 +5,10 @@ public class Member extends Store{
 	
 //	 -Members - sub class
 //	  (member_name, join_date, expire_date, address)
-	 String member_name;
-	 String join_date;
-	 String expire_date;
-	 String address;
+	 private String member_name;
+	 private String join_date;
+	 private String expire_date;
+	 private String address;
 	 
 	 public Member(){
 		 member_name 	= "Michelle";

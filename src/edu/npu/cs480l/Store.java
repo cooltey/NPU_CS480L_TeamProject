@@ -5,9 +5,9 @@ public class Store {
 	
 	 //	Store - main class
 	 //	(store_name, open_hours, location)
-	 String store_name;
-	 String open_hours;
-	 String location;
+	 private String store_name;
+	 private String open_hours;
+	 private String location;
 	 
 	 public Store(){
 		 store_name 	= "Corner Market";

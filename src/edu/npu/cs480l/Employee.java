@@ -5,9 +5,9 @@ public class Employee extends Store{
 	
 //	 -Employees - sub class
 //	  (employee_name, hire_date, salary)
-	 String employee_name;
-	 String hire_date;
-	 String salary;
+	 private String employee_name;
+	 private String hire_date;
+	 private String salary;
 	 
 	 public Employee(){
 		 employee_name 	= "Obama";

@@ -7,9 +7,9 @@ public class Brand extends Store{
 	
 	 // -Products - sub class
 	 // (product_name, produce_date, price)
-	 String brand_name;
-	 String company_location;
-	 ArrayList<Product> products = new ArrayList<Product>();
+	 private String brand_name;
+	 private String company_location;
+	 private ArrayList<Product> products = new ArrayList<Product>();
 	 
 	 public Brand(){
 		 brand_name 		= "Starbucks";
